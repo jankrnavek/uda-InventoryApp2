@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list item in the inventory -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:descendantFocusability="blocksDescendants"
+              android:orientation="horizontal"
+              android:padding="16dp">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Name:"
+            />
+
+            <TextView
+                    android:id="@+id/tv_name"
+                    style="@style/TextViewStyle"
+                    android:layout_weight="1"
+            />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Quantity:"
+            />
+
+            <TextView
+                    android:id="@+id/tv_quantity"
+                    style="@style/TextViewStyle"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Price:"
+            />
+
+            <TextView
+                    android:id="@+id/tv_price"
+                    style="@style/TextViewStyle"
+            />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/btn_sale"
+            style="@style/BtnSaleStyle"
+            android:focusable="false"
+            android:text="Sale"/>
+
+</LinearLayout>

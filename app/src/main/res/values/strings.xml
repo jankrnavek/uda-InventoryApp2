@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="editor_activity_title">Product editor</string>
+    <string name="action_insert_dummy_data">Insert dummy product</string>
+    <string name="action_delete_all_entries">Delete all products</string>
+    <string name="empty_view_title_text">There is nothing to show</string>
+    <string name="empty_view_subtitle_text">Add product</string>
+    <string name="dialog_unsaved_changes">Quit without saving?</string>
+    <string name="keep_editing">Continue editing</string>
+    <string name="dialog_delete">Delete this product?</string>
+
+    <string name="editor_insert_product_error">Product not saved!</string>
+    <string name="editor_insert_product_ok">Save successful</string>
+    <string name="editor_update_product_error">Product not updated!</string>
+    <string name="editor_update_product_ok">Product update successful</string>
+
+    <string name="discard">Discard</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="toast_ask_price">Ask for price</string>
+    <string name="toast_sold_out">Product is sold out</string>
+    <string name="toast_delete_product_error">Product not deleted!</string>
+    <string name="toast_delete_product_ok">Product deleted</string>
+    <string name="toast_missing_name">Insert name</string>
+    <string name="toast_missing_price">Insert price</string>
+    <string name="toast_missing_quantity">Insert quantity</string>
+    <string name="toast_missing_supplier_name">Insert supplier name</string>
+    <string name="toast_missing_supplier_phone">Insert phone number</string>
+    <string name="toast_fill_fields">Fill blank fields !</string>
+</resources>
